@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/Header";
 import { SplashScreen } from "@/components/SplashScreen";
 import { Providers } from "./providers";
@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Arisan3 — Arisan on-chain di Base",
   description:
     "Arisan tradisional Indonesia di smart contract immutable. Non-custodial, transparan, dan tidak bisa dimanipulasi siapapun.",
+};
+
+export const viewport: Viewport = {
   themeColor: "#FCFBF4",
 };
 
